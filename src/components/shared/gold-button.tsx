@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, HTMLMotionProps } from "framer-motion";
 import { cn } from "@/utils/cn"; // We will create this standard utility in a second
 
-interface GoldButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface GoldButtonProps extends HTMLMotionProps<"button"> {
   variant?: "solid" | "outline" | "ghost";
   size?: "sm" | "md" | "lg";
   children: React.ReactNode;

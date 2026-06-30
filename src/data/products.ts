@@ -19,12 +19,48 @@ export interface Product {
 }
 
 export const categoriesList = [
-  { name: "واي بروتين", slug: "whey-protein", icon: "⚡", bg: "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?q=80&w=400" },
-  { name: "بروتين معزول (Isolate)", slug: "isolate", icon: "💪", bg: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?q=80&w=400" },
-  { name: "ماس جينر", slug: "mass-gainer", icon: "🔥", bg: "https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=400" },
-  { name: "كرياتين", slug: "creatine", icon: "💊", bg: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400" },
-  { name: "أحزمة رياضية", slug: "belts", icon: "🏋️‍♂️", bg: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=400" },
-  { name: "إكسسوارات الجيم", slug: "accessories", icon: "🎒", bg: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=400" }
+  {
+    id: "1",
+    name: "واي بروتين",
+    slug: "whey-protein",
+    icon: "⚡",
+    bg: "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?q=80&w=400"
+  },
+  {
+    id: "2",
+    name: "بروتين معزول (Isolate)",
+    slug: "isolate",
+    icon: "💪",
+    bg: "https://images.unsplash.com/photo-1593095948071-474c5cc2989d?q=80&w=400"
+  },
+  {
+    id: "3",
+    name: "ماس جينر",
+    slug: "mass-gainer",
+    icon: "🔥",
+    bg: "https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=400"
+  },
+  {
+    id: "4",
+    name: "كرياتين",
+    slug: "creatine",
+    icon: "💊",
+    bg: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400"
+  },
+  {
+    id: "5",
+    name: "أحزمة رياضية",
+    slug: "belts",
+    icon: "🏋️‍♂️",
+    bg: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=400"
+  },
+  {
+    id: "6",
+    name: "إكسسوارات الجيم",
+    slug: "accessories",
+    icon: "🎒",
+    bg: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=400"
+  }
 ];
 
 export const products: Product[] = [
