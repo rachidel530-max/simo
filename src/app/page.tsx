@@ -87,7 +87,7 @@ export default function HomePage() {
   }
 
   const primaryBanner = banners[0] || {
-   image: "https://ibb.co/RpKKBhJY",
+   image: "https://www.swissotel.com/hotels/dubai-al-murooj/spa-fitness/swissfit-gym/",
     title: "وقود القوة القصوى",
     subtitle: "مكملات غذائية ومعدات رياضية فاخرة مصممة للأبطال لتحقيق الأرقام القياسية"
   };
