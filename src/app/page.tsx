@@ -87,7 +87,7 @@ export default function HomePage() {
   }
 
   const primaryBanner = banners[0] || {
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1920",
+   image: "/images/hero.jpeg",
     title: "وقود القوة القصوى",
     subtitle: "مكملات غذائية ومعدات رياضية فاخرة مصممة للأبطال لتحقيق الأرقام القياسية"
   };
