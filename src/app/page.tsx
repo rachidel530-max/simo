@@ -88,7 +88,7 @@ export default function HomePage() {
 
  const primaryBanner = {
   image: "/images/hero.jpeg",
-  title: "وقود القوة القصوى",
+  title: "",
   subtitle: "مكملات غذائية ومعدات رياضية فاخرة مصممة للأبطال لتحقيق الأرقام القياسية"
 };
 
@@ -120,16 +120,6 @@ export default function HomePage() {
             <Sparkles size={12} />
             مكملات غذائية ومعدات صالة رياضية النخبة
           </motion.div>
-
-          <motion.h1
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-4xl sm:text-6xl md:text-7xl font-sans font-black leading-tight text-white"
-          >
-            {primaryBanner.title.split(" ").slice(0, -2).join(" ")}{" "}
-            <span className="gold-gradient-text block sm:inline">{primaryBanner.title.split(" ").slice(-2).join(" ")}</span>
-          </motion.h1>
 
           <motion.p
             initial={{ opacity: 0 }}
