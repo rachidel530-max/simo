@@ -102,11 +102,16 @@ export default function HomePage() {
         
         {/* Background Image Banner */}
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-30 select-none scale-105 pointer-events-none" 
-          style={{ backgroundImage: `url('${primaryBanner.image}')` }}
+          className="absolute inset-0 bg-contain md:bg-cover bg-center bg-no-repeat opacity-30 select-none pointer-events-none"
+          style={{
+  backgroundImage: `url(${
+    typeof window !== "undefined" && window.innerWidth < 768
+      ? "/images/Fitness_supplement_store_banner_2K_202607020036.jpeg"
+      : primaryBanner.image
+  })`,
+}}
         />
-
-        {/* Floating gold glowing rings */}
+       {/* Floating gold glowing rings */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#D4AF37]/5 rounded-full blur-[100px] pointer-events-none" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#996515]/5 rounded-full blur-[100px] pointer-events-none" />
 
