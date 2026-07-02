@@ -122,9 +122,7 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#D4AF37]/10 border border-[#D4AF37]/20 text-[#D4AF37] text-[11px] font-bold uppercase tracking-wider font-sans mx-auto"
           >
-            <Sparkles size={12} />
-            مكملات غذائية ومعدات صالة رياضية النخبة
-          </motion.div>
+            </motion.div>
 
            <motion.div
   initial={{ opacity: 0, y: 20 }}
