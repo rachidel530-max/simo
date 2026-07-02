@@ -139,18 +139,13 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
+            className="flex justify-center -mt-10"
           >
             <Link href="/shop" className="w-full sm:w-auto">
               <GoldButton size="lg" className="w-full sm:w-auto flex-row-reverse">
                 تسوق التشكيلة كاملة <ArrowLeft size={16} />
               </GoldButton>
-            </Link>
-            <Link href="/shop?category=أحزمة%20رياضية" className="w-full sm:w-auto">
-              <GoldButton variant="outline" size="lg" className="w-full sm:w-auto">
-                معدات الرفع
-              </GoldButton>
-            </Link>
+            </Link>  
           </motion.div>
         </div>
       </section>
