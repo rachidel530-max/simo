@@ -127,17 +127,17 @@ export default function HomePage() {
           </motion.div>
 
           <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, delay: 0.5 }}
-  className="absolute left-1/2 -translate-x-1/2 top-[55%] z-30"
->
-  <Link href="/shop">
-    <GoldButton size="lg" className="flex-row-reverse">
-      تسوق التشكيلة كاملة <ArrowLeft size={16} />
-    </GoldButton>
-  </Link>
-</motion.div>
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+           className="flex justify-center mt-56"
+          >
+            <Link href="/shop" className="w-full sm:w-auto">
+              <GoldButton size="lg" className="w-full sm:w-auto flex-row-reverse">
+                تسوق التشكيلة كاملة <ArrowLeft size={16} />
+              </GoldButton>
+            </Link>  
+          </motion.div>
         </div>
       </section>
 
