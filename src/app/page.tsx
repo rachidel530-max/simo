@@ -135,7 +135,7 @@ export default function HomePage() {
 
             <Link href="/shop" className="w-full sm:w-auto">
               <GoldButton size="lg" className="w-full sm:w-auto flex-row-reverse">
-                تسوق التشكيلة كاملة <ArrowLeft size={16} />
+                     تجربة <ArrowLeft size={16} />
               </GoldButton>
             </Link>  
           </motion.div>
