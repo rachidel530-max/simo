@@ -96,7 +96,7 @@ export default function HomePage() {
     <div className="space-y-24 pb-20">
       
       {/* 1. HERO SECTION */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-black py-20 text-center">
+     <section className="relative min-h-[90vh] flex items-start justify-center overflow-hidden bg-black pt-16 text-center">
         {/* Dark overlay graphic */}
         <div className="absolute inset-0 bg-radial-gradient(circle at center, rgba(212,175,55,0.08) 0%, rgba(0,0,0,1) 100%) z-10" />
         
@@ -127,17 +127,17 @@ export default function HomePage() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex justify-center -mt-10"
-          >
-            <Link href="/shop" className="w-full sm:w-auto">
-              <GoldButton size="lg" className="w-full sm:w-auto flex-row-reverse">
-                تسوق التشكيلة كاملة <ArrowLeft size={16} />
-              </GoldButton>
-            </Link>  
-          </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.5 }}
+  className="absolute left-1/2 -translate-x-1/2 top-[55%] z-30"
+>
+  <Link href="/shop">
+    <GoldButton size="lg" className="flex-row-reverse">
+      تسوق التشكيلة كاملة <ArrowLeft size={16} />
+    </GoldButton>
+  </Link>
+</motion.div>
         </div>
       </section>
 
