@@ -126,15 +126,6 @@ export default function HomePage() {
             مكملات غذائية ومعدات صالة رياضية النخبة
           </motion.div>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="max-w-2xl mx-auto text-sm sm:text-base text-neutral-400 font-sans font-light leading-relaxed"
-          >
-            {primaryBanner.subtitle}
-          </motion.p>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
