@@ -137,7 +137,7 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
           <h2 className="font-sans font-black text-2xl sm:text-4xl text-white">
-            تسوق حسب <span className="text-[#D4AF37]">الأقسام</span>
+               لا تتردد في بناء<span className="text-[#D4AF37]">عضلاتك</span>
           </h2>
           <div className="w-16 h-[2px] bg-[#D4AF37] mx-auto" />
         </div>
